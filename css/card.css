@@ -1,0 +1,48 @@
+@charset "utf-8";
+/*
+！*作者：WU EVA
+！*时间:2017/5/7
+**/
+
+.list-group-item:first-child {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-width: 0;
+}
+p {
+    margin: auto !important;
+    /*cursor: pointer;*/
+}
+.list-group-item{
+  border-width: 1px 0;
+  padding: 0 15px;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+}
+.YYlist{
+  cursor: pointer;
+}
+.YYlist .YYlist-title{
+  color: #fff;
+  line-height: 50px;
+}
+.quantity{
+  float: none;
+}
+.YYlist .col-xs-3{
+  padding:20px 0;
+  text-align: center;
+  background:#428bca;
+  border-color: #bce8f1;
+  border-radius: 100%;
+}
+.totallist{
+  position: fixed;
+  bottom:0px;
+  left: 0;
+  right:0;
+  width: 100%;
+}
